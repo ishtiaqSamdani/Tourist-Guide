@@ -1,0 +1,27 @@
+.tg{
+	font-size: 2rem;
+	font-weight: bold;
+}
+.t{
+	color: #EEEEEE;
+}
+.g{
+	color: #EBD671;
+}
+.bg_color{
+	background-color: #05595B!important;
+}
+.txt_color{
+	color: white!important;
+}
+.footer_bg{
+	text-decoration: none;
+	color: white;
+	background-color: #05595B!important;
+}
+.names{
+	align-content: center;
+}
+.footer_ftr{
+	margin: 100vh 0 0 0;
+}
