@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Tourist Guide</title>
@@ -15,75 +18,123 @@
 <body>
     <div class="home">
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg_color">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><span class="tg"><span class="t">T</span><span class="g">G</span></span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active txt_color" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link txt_color" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link txt_color" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link txt_color" href="#">About Us</a>
-                </li>
-              </ul>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="tg"><span class="t">T</span><span
+                            class="g">G</span></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active txt_color" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link txt_color" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link txt_color" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link txt_color" href="#">About Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide carousel_bootstrap" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner carousel_bootstrap">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiatoday.in%2Findia-today-insight%2Fstory%2Fcovid-19-kerala-tourism-sector-hit-hard-by-the-pandemic-1812843-2021-06-09&psig=AOvVaw2TMxNBPowgooU0E8PoFNGC&ust=1647279133664000&source=images&cd=vfe&ved=2ahUKEwiiiZGOz8P2AhU1yaACHclYBGYQjRx6BAgAEAk"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-</nav>
-<footer class="bg-light text-center text-lg-start footer_ftr">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!--Grid row-->
-    <div class="row">
-      <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer text</h5>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-          aliquam voluptatem veniam, est atque cumque eum delectus sint!
-        </p>
-      </div>
-      <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer text</h5>
 
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-          aliquam voluptatem veniam, est atque cumque eum delectus sint!
-        </p>
-      </div>
-      <!--Grid column-->
-    </div>
-    <!--Grid row-->
-  </div>
-  <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3 footer_bg" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Copyright:
-    <div class="names">
-      <p>Ishtiaq Ahmed - Venkatesh - Veerraju</p>
-  </div>
-    
-  </div>
 
-  <!-- Copyright -->
-</footer>
 
-        
+
+
+
+
+        <footer class="bg-light text-center text-lg-start footer_ftr">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Footer text</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3 footer_bg" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <div class="names">
+                    <p>Ishtiaq Ahmed - Venkatesh - Veerraju</p>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+        </footer>
+
+
     </div>
 </body>
 

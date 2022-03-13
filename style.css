@@ -1,27 +1,30 @@
-.tg{
-	font-size: 2rem;
-	font-weight: bold;
+.tg {
+  font-size: 2rem;
+  font-weight: bold;
 }
-.t{
-	color: #EEEEEE;
+.t {
+  color: #eeeeee;
 }
-.g{
-	color: #EBD671;
+.g {
+  color: #ebd671;
 }
-.bg_color{
-	background-color: #05595B!important;
+.bg_color {
+  background-color: #05595b !important;
 }
-.txt_color{
-	color: white!important;
+.txt_color {
+  color: white !important;
 }
-.footer_bg{
-	text-decoration: none;
-	color: white;
-	background-color: #05595B!important;
+.footer_bg {
+  text-decoration: none;
+  color: white;
+  background-color: #05595b !important;
 }
-.names{
-	align-content: center;
+.names {
+  align-content: center;
 }
-.footer_ftr{
-	margin: 100vh 0 0 0;
+.footer_ftr {
+  margin: 100vh 0 0 0;
+}
+.carousel_bootstrap {
+  height: 90vh;
 }
