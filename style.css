@@ -26,5 +26,19 @@
   margin: 100vh 0 0 0;
 }
 .carousel_bootstrap {
-  height: 90vh;
+  height: 50vh;
+}
+.card_item {
+  box-shadow: 0rem 0.2rem 1rem black;
+}
+.cards_ {
+  margin: 2rem 1rem 1rem 1rem;
+}
+.row {
+  gap: 1rem;
+}
+.heading {
+  margin: 1rem 0 0 0;
+  display: grid;
+  place-content: center;
 }
