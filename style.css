@@ -40,6 +40,7 @@ img.d-block.w-100.img_carousel {
 
 .card_item {
   box-shadow: 0rem 1px 2px black;
+  transition: transform 200ms ease-in-out;
 }
 
 .cards_ {
@@ -58,4 +59,23 @@ img.d-block.w-100.img_carousel {
 
 .card_space_ {
   height: 10rem;
+}
+.state_head{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.st_img{
+  height: 10rem;
+  object-fit: cover;
+}
+.card_item:hover{
+  box-shadow:0px 5px 7px #333;
+  transform: scale(1.2);
+
+}
+.states_2{
+  margin-top: 4rem;
+}
+.goa_card{
+  margin-left: 1rem;
 }
