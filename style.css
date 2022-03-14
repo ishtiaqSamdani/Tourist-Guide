@@ -61,8 +61,11 @@ img.d-block.w-100.img_carousel {
   height: 10rem;
 }
 .state_head{
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #019267;
 }
 .st_img{
   height: 10rem;
@@ -78,4 +81,28 @@ img.d-block.w-100.img_carousel {
 }
 .goa_card{
   margin-left: 1rem;
+}
+.pft{
+  
+  font-style: italic;
+  font-size: 3rem;
+  color: black;
+}
+.taw{
+  font-style: italic;
+  font-size: 2rem;
+  color: #333;
+
+}
+.etw{
+  font-style: italic;
+  font-size: 2rem;
+  color: black;
+
+}
+.feat{
+  margin-top: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #019267;
 }
