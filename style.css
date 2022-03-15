@@ -110,3 +110,48 @@ img.d-block.w-100.img_carousel {
 body {
     background-color: #EEEEEE;
 }
+.category_head{
+  margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #019267;
+}
+.category_q{
+  font-size: 2rem;
+}
+
+.category_input{
+  width: 150px;
+  height: 30px;
+  background-color: #74959A;
+}
+.submit_button{
+  width: 150px;
+  
+  background-color: #4FD3C4;
+  color: #333;
+  border-radius: 8px;
+}
+.sub{
+  background-color: #05595B!important;
+}
+.category{
+  margin-top: 5rem;
+  width: 500px;
+  padding: 50px;
+  background-color: #C1F8CF;
+  border-radius: 15px;
+}
+.contact_head{
+  
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: #019267;
+}
+.contact_us{
+  margin-top: 5rem;
+  width: 500px;
+  padding: 50px;
+  background-color: #54BAB9;
+  border-radius: 15px;
+}

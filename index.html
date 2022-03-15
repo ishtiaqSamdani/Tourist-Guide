@@ -194,23 +194,48 @@
                     </div>
                 </div>
             </div>
-
+            <center>
             <div class="category">
-                <h2>Choose category</h2>
-                <div class="row">
-                    <form action="/action_page.php">
-                        <label for="cars">Choose a car:</label>
-                        <select name="cars" id="cars">
-                      <option value="volvo">Volvo</option>
-                      <option value="saab">Saab</option>
-                      <option value="opel">Opel</option>
-                      <option value="audi">Audi</option>
+                <center>
+                <h2 class="category_head">Choose category</h2>
+                <div class="category_inp">
+                    <form >
+                        <label for="category_q"><h4 class="venk">Where do you like to go ?&nbsp;&nbsp;&nbsp;</h4></label>
+                        <select name="inp" id="cars" class="category_input">
+                        <option value="select"><big>Select</big></option>
+                      <option value="beach">Beach</option>
+                      <option value="forest">Forest</option>
+                      <option value="temples">Temples</option>
+                      <option value="parks">Parks</option>
+                      <option value="zoo">Zoo</option>
+                      
                     </select>
                         <br><br>
-                        <input type="submit" value="Submit">
+                        <input type="submit" class="btn btn-primary sub" value="Submit">
                     </form>
                 </div>
+            </center>
             </div>
+        </center>
+
+        <center>
+            <div class="contact_us">
+                <h2 class="contact_head">Contact Us</h2>
+                <form action="/action_page.php">
+                  <label for="fname" autofocus><h5>First name:</h5></label>
+                  <input type="text" id="fname" name="fname" value="First Name.." autofocus><br><br>
+                  <label for="lname"><h5>Last name:</h5></label>
+                  <input type="text" id="lname" name="lname" value="Last Name.."><br><br>
+                  <label for="email"><h5>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></label>
+                  <input type="email" id="email" name="email" value="Email"><br><br>
+                  <label for="Phoneno"><h5>Phone No:</h5></label>
+                  <input type="text" id="Phoneno" name="Phoneno" value="Mobile"><br><br>
+                  <label for="lname"><h5>Last name:</h5></label>
+                  <input type="text" id="lname" name="lname" value="Doe"><br><br><br>
+                  <input type="submit" value="Submit" class="btn btn-primary sub">
+                </form>
+            </div>
+        </center>
 
 
 
