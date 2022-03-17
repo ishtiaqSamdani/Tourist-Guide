@@ -30,7 +30,7 @@
 }
 
 .footer_ftr {
-  margin: 100vh 0 0 0;
+  margin: 2rem 0 0 0;
 }
 
 img.d-block.w-100.img_carousel {
@@ -155,7 +155,7 @@ body {
   margin-top: 5rem;
   width: 100%;
   padding: 50px;
-  background-color: #C1F8CF;
+  background-color: #c1f8cf;
   border-radius: 15px;
 }
 .category__ > * {
@@ -177,6 +177,11 @@ body {
 }
 .category_text {
   font-size: 1rem;
+}
+
+.states_link {
+  text-decoration: none;
+  color: #333;
 }
 
 /* media queries */
