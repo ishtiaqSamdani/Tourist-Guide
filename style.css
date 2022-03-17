@@ -164,3 +164,13 @@ body {
   width: 100%;
   object-fit: cover;
 }
+.category_center{
+  text-align: center;
+}
+.category_title{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.category_text{
+  font-size: 1rem;
+}
