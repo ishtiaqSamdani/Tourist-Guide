@@ -42,6 +42,10 @@ img.d-block.w-100.img_carousel {
   box-shadow: 0rem 1px 2px black;
   transition: transform 200ms ease-in-out;
 }
+.card_item_1 {
+  box-shadow: 0rem 1px 2px black;
+  transition: transform 200ms ease-in-out;
+}
 
 .cards_ {
   margin: 2rem 1rem 1rem 1rem;
@@ -149,7 +153,7 @@ body {
 }
 .contact_us {
   margin-top: 5rem;
-  width: 500px;
+  width: 100%;
   padding: 50px;
   background-color: #54bab9;
   border-radius: 15px;
@@ -164,13 +168,20 @@ body {
   width: 100%;
   object-fit: cover;
 }
-.category_center{
+.category_center {
   text-align: center;
 }
-.category_title{
+.category_title {
   font-weight: bold;
   font-size: 2rem;
 }
-.category_text{
+.category_text {
   font-size: 1rem;
+}
+
+/* media queries */
+@media (max-width: 760px) {
+  .goa_card {
+    margin: 0;
+  }
 }
