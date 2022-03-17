@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="home">
+    <div class="home" id="top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light bg_color">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><span class="tg"><span class="t">T</span><span
@@ -28,13 +28,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active txt_color" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active txt_color" aria-current="page" href="#top">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link txt_color" href="#">Features</a>
+                            <a class="nav-link txt_color" href="#feature">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link txt_color" href="#">Contact Us</a>
+                            <a class="nav-link txt_color" href="#contact">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link txt_color" href="#">About Us</a>
@@ -86,7 +86,7 @@
         </div>
         <div class="container">
             <div class="heading">
-                <h2 class="feat">Features</h2>
+                <h2 class="feat" id="feature">Features</h2>
             </div>
             <div class="cards_">
                 <div class="row">
@@ -285,13 +285,13 @@
                 </div>
             </div>
             <center>
-                <div class="contact_us">
+                <div class="contact_us" id="contact">
                     <h2 class="contact_head">Contact Us</h2>
                     <form action="mailto:ishmartishtiaq709@gmail.com" method="post">
-                        <label for="fname" autofocus>
+                        <label for="fname" >
                             <h5>First name:</h5>
                         </label>
-                        <input type="text" id="fname" name="fname" placeholder="first name" autofocus /><br /><br />
+                        <input type="text" id="fname" name="fname" placeholder="first name"  /><br /><br />
                         <label for="lname">
                             <h5>Last name:</h5>
                         </label>
