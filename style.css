@@ -1,157 +1,166 @@
 .tg {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .t {
-    color: #eeeeee;
+  color: #eeeeee;
 }
 
 .g {
-    color: #ebd671;
+  color: #ebd671;
 }
 
 .bg_color {
-    background-color: #05595b !important;
+  background-color: #05595b !important;
 }
 
 .txt_color {
-    color: white !important;
+  color: white !important;
 }
 
 .footer_bg {
-    text-decoration: none;
-    color: white;
-    background-color: #05595b !important;
+  text-decoration: none;
+  color: white;
+  background-color: #05595b !important;
 }
 
 .names {
-    align-content: center;
+  align-content: center;
 }
 
 .footer_ftr {
-    margin: 100vh 0 0 0;
+  margin: 100vh 0 0 0;
 }
 
 img.d-block.w-100.img_carousel {
-    height: 89vh;
-    object-fit: cover;
+  height: 89vh;
+  object-fit: cover;
 }
 
 .card_item {
-    box-shadow: 0rem 1px 2px black;
-    transition: transform 200ms ease-in-out;
+  box-shadow: 0rem 1px 2px black;
+  transition: transform 200ms ease-in-out;
 }
 
 .cards_ {
-    margin: 2rem 1rem 1rem 1rem;
+  margin: 2rem 1rem 1rem 1rem;
 }
 
 .row {
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .heading {
-    margin: 1rem 0 0 0;
-    display: grid;
-    place-content: center;
+  margin: 1rem 0 0 0;
+  display: grid;
+  place-content: center;
 }
 
 .card_space_ {
-    height: 10rem;
+  height: 10rem;
 }
 
 .state_head {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    font-weight: bold;
-    color: #019267;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #019267;
 }
 
 .st_img {
-    height: 10rem;
-    object-fit: cover;
+  height: 10rem;
+  object-fit: cover;
 }
 
 .card_item:hover {
-    box-shadow: 0px 5px 7px #333;
-    transform: scale(1.2);
+  box-shadow: 0px 5px 7px #333;
+  transform: scale(1.2);
 }
 
 .states_2 {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .goa_card {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .pft {
-    font-size: 3rem;
-    color: black;
+  font-size: 3rem;
+  color: black;
 }
 
 .taw {
-    font-size: 2rem;
-    color: #333;
+  font-size: 2rem;
+  color: #333;
 }
 
 .etw {
-    font-size: 2rem;
-    color: white;
+  font-size: 2rem;
+  color: white;
 }
 
 .feat {
-    margin-top: 2rem;
-    font-weight: bold;
-    color: #019267;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #019267;
 }
 
 body {
-    background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
-.category_head{
+.category_head {
   margin-top: 3rem;
-    margin-bottom: 3rem;
-    font-weight: bold;
-    color: #019267;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #019267;
 }
-.category_q{
+.category_q {
   font-size: 2rem;
 }
 
-.category_input{
+.category_input {
   width: 150px;
   height: 30px;
-  background-color: #74959A;
+  background-color: #74959a;
 }
-.submit_button{
+.submit_button {
   width: 150px;
-  
-  background-color: #4FD3C4;
+
+  background-color: #4fd3c4;
   color: #333;
   border-radius: 8px;
 }
-.sub{
-  background-color: #05595B!important;
+.sub {
+  background-color: #05595b !important;
 }
-.category{
+.category {
   margin-top: 5rem;
   width: 500px;
   padding: 50px;
-  background-color: #C1F8CF;
+  background-color: #c1f8cf;
   border-radius: 15px;
 }
-.contact_head{
-  
-    margin-bottom: 3rem;
-    font-weight: bold;
-    color: #019267;
+.contact_head {
+  margin-bottom: 3rem;
+  font-weight: bold;
+  color: #019267;
 }
-.contact_us{
+.contact_us {
   margin-top: 5rem;
   width: 500px;
   padding: 50px;
-  background-color: #54BAB9;
+  background-color: #54bab9;
   border-radius: 15px;
+}
+.category__ > * {
+  margin: 1rem 0 0 0;
+}
+.category__ {
+  margin: 3rem 0 0 0;
+}
+.img_category {
+  width: 100%;
+  object-fit: cover;
 }
