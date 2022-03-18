@@ -41,10 +41,12 @@ img.d-block.w-100.img_carousel {
 .card_item {
   box-shadow: 0rem 1px 2px black;
   transition: transform 200ms ease-in-out;
+  cursor: pointer;
 }
 .card_item_1 {
   box-shadow: 0rem 1px 2px black;
   transition: transform 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .cards_ {
@@ -182,6 +184,36 @@ body {
 .states_link {
   text-decoration: none;
   color: #333;
+}
+
+.content_conatiner {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  border: 2px solid #333;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+.content_1 {
+  flex: 1 1 20%;
+  min-width: 25ch;
+  height: auto;
+  object-fit: cover;
+  border-radius: 11px;
+}
+
+.content_2 {
+  flex: 1 1 70%;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.content_2 > h1 {
+  text-transform: capitalize;
+}
+.heading_content {
+  margin: 2rem 0 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* media queries */
