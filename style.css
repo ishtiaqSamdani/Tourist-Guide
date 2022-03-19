@@ -216,16 +216,15 @@ body {
   text-transform: uppercase;
 }
 .content_container {
-  transform-style: preserve-3d;
   padding: 2rem 1rem;
   perspective: 70rem;
-  height: 100vh;
-  /* perspective-origin: top; */
+  transform-style: preserve-3d;
+  perspective-origin: top;
 }
 .content_beach {
   cursor: pointer;
   height: 27rem;
-  margin: 2rem 0 0 0;
+  margin: 6rem 0;
   border: 2px solid #333;
   transition: transform 500ms ease-in-out;
   position: relative;
