@@ -223,6 +223,7 @@ body {
   /* perspective-origin: top; */
 }
 .content_beach {
+  cursor: pointer;
   height: 27rem;
   margin: 2rem 0 0 0;
   border: 2px solid #333;
