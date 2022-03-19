@@ -215,6 +215,56 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.content_container {
+  transform-style: preserve-3d;
+  padding: 2rem 1rem;
+  perspective: 70rem;
+  height: 100vh;
+  /* perspective-origin: top; */
+}
+.content_beach {
+  height: 27rem;
+  margin: 2rem 0 0 0;
+  border: 2px solid #333;
+  transition: transform 500ms ease-in-out;
+  position: relative;
+}
+.content_beach:hover {
+  transform: rotateY(180deg);
+}
+
+.content_beach:hover .front {
+  opacity: 0;
+}
+.content_beach:hover .back {
+  transform: rotateY(-180deg);
+  opacity: 1;
+}
+.front {
+  width: 100%;
+  height: 100%;
+  transition: opacity 500ms ease-in-out;
+}
+.front > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  padding: 1rem 2rem;
+}
+.nav_fixed {
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
 
 /* media queries */
 @media (max-width: 760px) {
