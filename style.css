@@ -244,6 +244,7 @@ body {
   width: 100%;
   height: 100%;
   transition: opacity 500ms ease-in-out;
+  
 }
 .front > img {
   width: 100%;
@@ -271,4 +272,10 @@ body {
   .goa_card {
     margin: 0;
   }
+}
+.car{
+  margin-top: 75px !important;
+}
+.checked {
+  color: orange;
 }
