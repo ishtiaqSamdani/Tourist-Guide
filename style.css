@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
 .tg {
   font-size: 2rem;
   font-weight: bold;
@@ -306,4 +310,7 @@ body {
   .content_conatiner{
     padding: 2rem 0rem;
   }
+}
+.venkat{
+  margin-top: 5rem;
 }
