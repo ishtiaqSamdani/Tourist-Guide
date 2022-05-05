@@ -254,6 +254,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;*/
   position: relative;
+  background-image:linear-gradient(to right bottom, #9014e0, #ff008d, #ff423b, #f59f00, #b8dc35);
   
 }
 .front_title{
