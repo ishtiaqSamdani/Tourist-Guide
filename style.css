@@ -319,11 +319,35 @@ body {
   /* width:; */
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .div_img_about {
   z-index: 11;
   transition: all 350ms ease-in-out;
   box-shadow: 0px 2px 3px #333;
+
+  height: 50vmin;
+}
+.social_links {
+  position: absolute;
+  top: 50vmin;
+  left: 0;
+  transform: translateY(-100%);
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease, transform 250ms ease;
+  background-color: rgba(6, 165, 67, 0.63);
+}
+.social_link {
+  transition: transform 150ms ease-in-out;
+}
+.social_link:hover {
+  transform: scale(1.2);
 }
 .img_about {
   --radar: 0.15em;
@@ -338,9 +362,11 @@ body {
   transition: all 250ms ease-in-out;
 }
 .about_matter {
+  cursor: pointer;
+  user-select: none;
   opacity: 0;
   transform: translateY(-50%);
-  pointer-events: none;
+  /* pointer-events: none; */
   /* border:2px solid red; */
   transition: all 350ms ease-in-out;
   text-align: justify;
@@ -363,9 +389,17 @@ body {
   transform: translateY(calc(0% - 20px));
   opacity: 1;
 }
+.about_body:hover .social_links {
+  pointer-events: all;
+  transform: translateY(calc(-100% - 40px));
+  opacity: 1;
+}
 .about_stars {
   display: flex;
   gap: 2rem;
+}
+.about_stars > * {
+  flex-basis: 100%;
 }
 
 @media screen and (max-width: 772px) {
@@ -380,6 +414,19 @@ body {
 @media screen and (max-width: 800px) {
   .about_stars {
     flex-direction: column;
+  }
+  .ishmart_img {
+    object-position: 0 -8rem;
+  }
+}
+@media screen and (max-width: 758px) {
+  .ishmart_img {
+    object-position: 0 -4rem;
+  }
+}
+@media screen and (max-width: 340px) {
+  .ishmart_img {
+    object-position: unset;
   }
 }
 .venkat {
