@@ -97,9 +97,9 @@ img.d-block.w-100.img_carousel {
   margin-top: 4rem;
 }
 
-.goa_card {
+/* .goa_card {
   margin-left: 1rem;
-}
+} */
 
 .pft {
   font-size: 3rem;
@@ -417,6 +417,55 @@ body {
   }
   .ishmart_img {
     object-position: 0 -8rem;
+  }
+}
+.row_ish,.row_ish_2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:2.5rem;
+}
+.col_ish,.col_ish_2{
+  width: 100%;
+}
+.btn_1 {
+  position: relative;
+  z-index: 1;
+  padding: 1rem 2rem;
+  border:none;
+}
+.btn_1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  transition: transform ease 250ms;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+.btn_1:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+@media screen and (max-width: 992px) {
+  .row_ish,.row_ish_2{
+    grid-template-columns: repeat(2, 1fr);
+    place-self: center;
+  }
+}
+@media screen and (max-width: 734px) {
+  .row_ish{
+    grid-template-columns: repeat(1, 1fr); 
+    place-self: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .row_ish_2{
+    grid-template-columns: repeat(1, 1fr); 
+    place-self: center;
   }
 }
 @media screen and (max-width: 758px) {
