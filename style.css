@@ -427,29 +427,6 @@ body {
 .col_ish,.col_ish_2{
   width: 100%;
 }
-.btn_1 {
-  position: relative;
-  z-index: 1;
-  padding: 1rem 2rem;
-  border:none;
-}
-.btn_1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: -1;
-  transition: transform ease 250ms;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-.btn_1:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
-}
 @media screen and (max-width: 992px) {
   .row_ish,.row_ish_2{
     grid-template-columns: repeat(2, 1fr);
